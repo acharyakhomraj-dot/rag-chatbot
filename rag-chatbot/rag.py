@@ -69,7 +69,7 @@ Context:
 # 6. Retriever
 retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
 
-def format_docs(docs):
+def exitformat_docs(docs):
     formatted = []
     for doc in docs:
         source = os.path.basename(doc.metadata.get('source', 'unknown'))
