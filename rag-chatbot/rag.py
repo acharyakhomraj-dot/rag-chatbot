@@ -1,4 +1,4 @@
-\from dotenv import load_dotenv
+from dotenv import load_dotenv
 import os
 from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
